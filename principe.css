@@ -1,0 +1,46 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    background-color: #c0c3c7;
+    top:0px;
+    width: 100%;
+    height: 70px;
+    
+    margin-bottom: 50px;
+}
+.nav-h1{
+    font-size: 30px;
+    color: darkorange;
+    
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    
+
+
+}
+.p{
+ font-size: 30px;
+ background-color: darkorange;
+ border-style: double;
+ border-color: rgb(76, 75, 74);
+ border-radius: 10px;
+ margin: 130px 50px 50px 100px;
+}
+
+.image{
+    width: 650px;
+    height: 650px;
+    border-style: double;
+    border-color: rgb(76, 75, 74);
+ border-radius: 10px;
+ margin: 100px 10px 10px 10px;
+}
+h4{
+    font-size: large;
+    margin-top: 800px;
+    color:darkorange
+}

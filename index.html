@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body class="bady">
+    <header>
+        <nav class="nav">
+            <img src="logo.jpg" class="logo">
+            <h1 class="nav-h1">Gestion Personnel</h1>
+            <h3 class="h3" id="aide">Description
+            <ul class="ul">
+            <li class="li">Ajouter</li>
+            <li class="li">Modifier</li>
+            <li class="li">Supprimer</li>
+        </ul>
+    </h3>
+        </nav>
+    </header>
+    <main class="main">
+        
+        <!-- section 1 -->
+        <section class="sec1">
+            <img src="icon-ajouter.png" class="icon">
+
+            <div class="div-h1">
+                <h1>Ajouter Personnel</h1>
+            </div>
+            
+            <div class="div">
+
+                <label class="label">ID Personnel</label>
+                <input type="text" class="zone">
+                <label class="label">Nom Personnel</label>
+                <input type="text" class="zone">
+                <label class="label">Prenom Personnel</label>
+                <input type="text" class="zone">
+                <label class="label">Telephone</label>
+                <input type="text" class="zone">
+                <label class="label">Salaire/jour</label>
+                <select class="zone">
+                    <option value="">choisir salaire</option>
+                    <option value="30 DT">30 DT</option>
+                    <option value="35 DT">35 DT</option>
+                    <option value="40 DT">40 DT</option>
+                    <option value="45 DT">45 DT</option>
+                    <option value="50 DT">50 DT</option>
+                </select>
+                <button class="button" name="ajouter">Ajouter</button>
+            </div>
+        </section>
+        <!-- section 2 -->
+        <section class="sec2">
+            <img src="icon-modifier.png" class="icon">
+
+            <div class="div-h1">
+                <h1>Modifier Personnel</h1>
+            </div>
+            <div class="div">
+                <label class="label">ID Personnel</label>
+                <input type="text" class="zone">
+                <label class="label">Nom Personnel</label>
+                <input type="text" class="zone">
+                <label class="label">Prenom Personnel</label>
+                <input type="text" class="zone">  
+                <label class="label">Ancien Salaire/Jour</label>
+                <select class="zone">
+                    <option value="">choisir salaire</option>
+                    <option value="30 DT">30 DT</option>
+                    <option value="35 DT">35 DT</option>
+                    <option value="40 DT">40 DT</option>
+                    <option value="45 DT">45 DT</option>
+                    <option value="50 DT">50 DT</option>
+                </select>
+                <label class="label">Nouveau Salaire/jour</label>
+                <select class="zone">
+                    <option value="">choisir salaire</option>
+
+                    <option value="30 DT">30 DT</option>
+                    <option value="35 DT">35 DT</option>
+                    <option value="40 DT">40 DT</option>
+                    <option value="45 DT">45 DT</option>
+                    <option value="50 DT">50 DT</option>
+                </select>
+                <button class="button">Modifier</button>
+            </div>
+        </section>
+        <!-- section 3 -->
+        <section class="sec3">
+            <img src="icon-supprimer.png" class="icon">
+
+            <div class="div-h1">
+                <h1>Supprimer Personnel</h1>
+            </div>
+            <div class="div">
+                <label class="label">ID Personnel</label>
+                <input type="text" class="zone">
+                <label class="label">Nom Personnel</label>
+                <input type="text" class="zone">
+                <label class="label">Prenom Personnel</label>
+                <input type="text" class="zone"> 
+                <button class="button">Supprimer</button>
+
+            </div>
+        </section>
+    </main>
+    <main>
+        <section class="sec-main2">
+            <img src="icon-calcul.png" class="icon-calcul">
+
+            <div class="h1-sec-main2">
+                <h1>Calcul Salaire</h1>
+            </div>
+            <div class="div-sec-main2">
+                <label class="label">ID Personel</label>
+                <input type="text" class="zone-calcul">
+                <label class="label">Nom</label>
+                <input type="text" class="zone-calcul">
+                <label class="label">Prenom</label>
+                <input type="text" class="zone-calcul">
+                <label class="label">Nombre De Jours</label>
+                <input type="text" class="zone-calcul">
+                <label class="label" class="zone-calcul">Salaire Par Jour</label>
+                <input type="text" class="zone-calcul">
+                <button class="button">Calculer</button>
+                <label class="label">Salaire</label>
+                <input type="text" class="zone-calcul">
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    
+</body>
+<script src="index.js"></script>
+</html>

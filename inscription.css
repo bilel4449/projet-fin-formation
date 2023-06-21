@@ -1,0 +1,138 @@
+
+.html{
+    background-color:#222f4e;
+}
+.image{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+width: 95px;
+height: 95px;
+}
+.h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+    /* margin-right: 100px; */
+}
+.nav{
+    display: flex;
+flex-direction:column;
+justify-content: center;
+align-items:center;
+/* margin-left: 675px; */
+
+}
+.section{
+    
+    /* width: 400px; */
+    /* height: 300px; */
+    display: flex;
+    justify-content: center;
+    
+}
+.div{
+    background-color: blue;
+    /* margin: 70px 590px 70px 460px; */
+    padding: 30px 80px 30px 80px;
+    border-radius: 15px;
+    border-style: double;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+.label{
+    font-size:x-large;
+    padding: 10px 10px 10px 10px;
+    color: darkgoldenrod;
+}
+.zone{
+    font-size: large;
+    padding: 5px 10px 5px 10px;
+    margin: 10px 10px 10px 10px;
+    background-color: aquamarine;
+    
+}
+.zone:hover{
+    border:none;
+}
+.bouton{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 10px 50px 10px 50px;
+    background-color: aquamarine;
+    color: darkgoldenrod;
+    font-size: x-large;
+    border-radius: 20px;
+    border-style: double;
+    cursor: pointer;
+}
+.p{
+    
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+    color: blanchedalmond;
+}
+@media screen and (max-width:576px) {
+    .div{
+        background-color:blue;
+        width: 200px;
+    }
+    .image{
+        width: 30px;
+        height: 30px;
+        justify-content: center;
+    
+    }
+   
+    
+     .p{
+    
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+             color: blanchedalmond;
+             font-size: 12px;
+         }
+
+    
+    .h1{
+        justify-content: center;
+        font-size: 10px;
+    }
+.nav{
+    justify-content: center;
+
+}
+.label{
+    font-size:x-small;
+    padding: 0px 0px 0px 0px;
+    color: darkgoldenrod;
+}
+.zone{
+    font-size: small;
+    padding: 2px 5px 2px 5px;
+    margin: 10px 10px 10px 10px;
+    background-color: aquamarine;
+    
+}
+.bouton{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px 50px 10px 50px;
+    background-color: aquamarine;
+    color: darkgoldenrod;
+    font-size: small;
+    border-radius: 20px;
+    border-style: double;
+    cursor: pointer;
+}
+}
