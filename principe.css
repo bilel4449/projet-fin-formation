@@ -1,46 +1,65 @@
 .nav{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     position: fixed;
     background-color: #c0c3c7;
     top:0px;
     width: 100%;
-    height: 70px;
     
-    margin-bottom: 50px;
+    
 }
 .nav-h1{
+    display: flex;
+    justify-content: center;
     font-size: 30px;
     color: darkorange;
     
 }
 .section{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
     
 
 
 }
 .p{
- font-size: 30px;
+ font-size: 20px;
  background-color: darkorange;
  border-style: double;
  border-color: rgb(76, 75, 74);
  border-radius: 10px;
- margin: 130px 50px 50px 100px;
+ color: #212223;
 }
 
 .image{
-    width: 650px;
-    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border-style: double;
     border-color: rgb(76, 75, 74);
  border-radius: 10px;
- margin: 100px 10px 10px 10px;
+margin-top: 150px;
 }
 h4{
     font-size: large;
-    margin-top: 800px;
     color:darkorange
+}
+@media screen and(max-width:576px) {
+ .image{
+    width: 100px;
+    height: 100px;}
+
+    .nav{
+        
+    
+        width: 50%;
+        height: 30px;
+        
+        margin-bottom: 50px;
+    }
+    .nav-h1{
+        font-size: 10px;
+    }
 }
