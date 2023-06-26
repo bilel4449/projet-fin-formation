@@ -1,6 +1,6 @@
 
 .html{
-    background-color:#222f4e;
+    background-color:#cfd9f0;
 }
 .image{
    display: flex;
@@ -29,7 +29,7 @@ align-items:center;
     
 }
 .div{
-    background-color: blue;
+    background-color:aqua;
     padding: 30px 80px 30px 80px;
     border-radius: 15px;
     border-style: double;
